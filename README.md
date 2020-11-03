@@ -11,7 +11,8 @@ Tecnologia Utilizada:
 Inicio:
 
     Execute a configuração do ambiente de desenvolvimento usando um servidor da web e as dependencias do PHP;
-
+    Obs.(Certifique-se que você tenha o composer instalado no seu ambiente);
+    
 Instalaçao do projeto:
 
     Execute a clonagem do repositório por meio do GitHub:
@@ -30,11 +31,9 @@ Start o servidor:
 
     php artisan serve
     
-
 End Points
 
     A requisição a seguir retornar um Json com todas as informações de voos. Usar a posição: "groups" para listar os grupos de voos.
     
     http://localhost/api/fligth
-
     
